@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+A: When initializing the reflection repo, it turns out no commits have been
+done before. 
+
+git init //to initialize a new repo of existing directory
