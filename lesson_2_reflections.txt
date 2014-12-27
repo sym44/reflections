@@ -1,0 +1,14 @@
+Q1: What happens when you initialize a repository? Why do you need to do it?
+A: When initializing the reflection repo, it turns out no commits have been
+done before. 
+
+git init //to initialize a new repo of existing directory
+
+Q2: How is staging area different from the working directory and the
+repository? What value do you think it offers?
+A: staging area is the same thing as git index. It is temporary area between
+working directory and git directory. add-> index/staging area, commit-> git
+directory.
+
+git add <path>   working directory->staging area
+git reset HEAD <path> remove from staging area to working directory
